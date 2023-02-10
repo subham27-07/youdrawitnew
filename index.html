@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>NJ.com Data Team</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/d3v4.js"></script>
+<script src="js/pym.js"></script>
+
+
+
+<body>
+	
+	<div class='big-container njam-container'>
+		<h1>You Draw It: Just How Bad Is the Drug Overdose Epidemic?</h1>
+		<h3>How does the surge in drug overdoses compare with other causes of death in the U.S.? Draw your guesses on the charts below.</h3>
+		
+
+		
+		<div class='intro-text'>
+			
+		</div>
+		
+		
+		<div class='min-container'>
+				<div id="heroin"></div>
+				<script>
+					var pymParent = new pym.Parent('heroin', 'drugOverdose.html', {});
+				</script>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		
+		<div class='min-container'>
+			<div id="population"></div>
+			<script>
+				var pymParent = new pym.Parent('population', 'population.html', {});
+			</script>
+		</div>
+		<br>
+		<br>
+		
+		
+		<div class='min-container'>
+			<div id="country"></div>
+			<script>
+				var pymParent = new pym.Parent('country', 'country.html', {});
+			</script>
+		</div>
+</div>
+</body>
